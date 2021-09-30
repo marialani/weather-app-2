@@ -1,12 +1,13 @@
 import "../styles/index.css";
 import React from "react";
+import LocationDetails from "./LocationDetails";
 
-function App() {
+const App = () => {
   return (
-    <div className="prop">
-      <h1>Weather App</h1>
+    <div className="App">
+      <LocationDetails />
     </div>
   );
-}
+};
 
 export default App;

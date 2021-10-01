@@ -1,13 +1,22 @@
 import "../styles/index.css";
 import React from "react";
+import PropTypes from "prop-types";
 import LocationDetails from "./LocationDetails";
 
-const App = () => {
+const App = ({ location }) => {
+  const { city, country } = location;
   return (
     <div className="App">
-      <LocationDetails />
+      <LocationDetails city={city} country={country} />{" "}
     </div>
   );
+};
+
+App.propTypes = {
+  location: PropTypes.shape({
+    city: PropTypes.string,
+    country: PropTypes.string,
+  }).isRequired,
 };
 
 export default App;

@@ -5,11 +5,7 @@ import LocationDetails from "./LocationDetails";
 
 const App = ({ location }) => {
   const { city, country } = location;
-  return (
-    <div className="App">
-      <LocationDetails city={city} country={country} />{" "}
-    </div>
-  );
+  return <LocationDetails city={city} country={country} />;
 };
 
 App.propTypes = {
@@ -18,5 +14,4 @@ App.propTypes = {
     country: PropTypes.string,
   }).isRequired,
 };
-
 export default App;

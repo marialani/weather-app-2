@@ -6,10 +6,10 @@ const ForecastSummary = (props) => {
 
   return (
     <>
-      <div className="date"> {date} </div>
-      <div className="temperature"> {temperature} </div>
-      <div className="description">{description} </div>
-      <div className="icon">{icon} </div>
+      <div className="forecast-summary_date"> {date} </div>
+      <div className="forecast-summary_temperature"> {temperature.max}&#8451;</div>
+      <div className="forecast-summary_description">{description} </div>
+      <div className="forecast-summary_icon">{icon} </div>
     </>
   );
 };

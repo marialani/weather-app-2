@@ -6,19 +6,24 @@ const ForecastSummary = (props) => {
 
   return (
     <>
-      <div className="forecast-summary_date"> {date} </div>
-      <div className="forecast-summary_temperature"> {temperature.max}&#8451;</div>
-      <div className="forecast-summary_description">{description} </div>
-      <div className="forecast-summary_icon">{icon} </div>
+      <div className="forecast-summary__date"> {date} </div>
+      <div className="forecast-summary__temperature">
+        {temperature.max}&#8451;
+      </div>
+      <div className="forecast-summary__description">{description} </div>
+      <div className="forecast-summary__icon">{icon} </div>
     </>
   );
 };
 
 ForecastSummary.propTypes = {
   date: PropTypes.number.isRequired,
-  temperature: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   icon: PropTypes.number.isRequired,
+  temperature: PropTypes.shape({
+    min: PropTypes.number,
+    max: PropTypes.number,
+  }).isRequired,
 };
 
 export default ForecastSummary;

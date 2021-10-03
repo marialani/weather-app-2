@@ -11,7 +11,7 @@ describe("ForecastSummary", () => {
       min: 20,
       max: 30,
     },
-}
+  };
   it("renders details of the forecast including: date, description, icon and temperature", () => {
     const { asFragment } = render(
       <ForecastSummary

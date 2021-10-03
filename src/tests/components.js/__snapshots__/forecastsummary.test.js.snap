@@ -10,7 +10,7 @@ exports[`ForecastSummary renders details of the forecast including: date, descri
   <div
     class="forecast-summary__temperature"
   >
-    30℃
+    30°C
   </div>
   <div
     class="forecast-summary__description"
@@ -19,8 +19,9 @@ exports[`ForecastSummary renders details of the forecast including: date, descri
   </div>
   <div
     class="forecast-summary__icon"
+    data-testid="forecast-icon"
   >
-    stubIcon 
+    stubIcon
   </div>
 </DocumentFragment>
 `;

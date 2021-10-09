@@ -12,7 +12,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary__date"
       >
-        3333444
+        Thu 1st Jan
       </div>
       <div
         class="forecast-summary__icon"
@@ -41,7 +41,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary__date"
       >
-        3344245
+        Thu 1st Jan
       </div>
       <div
         class="forecast-summary__icon"

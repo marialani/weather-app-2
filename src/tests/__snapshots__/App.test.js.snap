@@ -41,6 +41,13 @@ exports[`renders correctly 1`] = `
         >
           Clear
         </div>
+        <div>
+          <button
+            type="button"
+          >
+            More details
+          </button>
+        </div>
       </div>
       <div
         class="forecast-summary"
@@ -69,6 +76,13 @@ exports[`renders correctly 1`] = `
           class="forecast-summary__description"
         >
           Stormy
+        </div>
+        <div>
+          <button
+            type="button"
+          >
+            More details
+          </button>
         </div>
       </div>
       <div
@@ -99,6 +113,13 @@ exports[`renders correctly 1`] = `
         >
           Heavy Snow
         </div>
+        <div>
+          <button
+            type="button"
+          >
+            More details
+          </button>
+        </div>
       </div>
       <div
         class="forecast-summary"
@@ -128,6 +149,13 @@ exports[`renders correctly 1`] = `
         >
           Tornado
         </div>
+        <div>
+          <button
+            type="button"
+          >
+            More details
+          </button>
+        </div>
       </div>
       <div
         class="forecast-summary"
@@ -156,6 +184,13 @@ exports[`renders correctly 1`] = `
           class="forecast-summary__description"
         >
           Hazy
+        </div>
+        <div>
+          <button
+            type="button"
+          >
+            More details
+          </button>
         </div>
       </div>
     </div>

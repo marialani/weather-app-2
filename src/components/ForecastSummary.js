@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import moment from "moment";
 import WeatherIcon from "react-icons-weather";
+import "../styles/ForecastSummary.css";
 
 const ForecastSummary = (props) => {
   const { date, icon, temperature, description, onSelect } = props;
@@ -18,7 +19,7 @@ const ForecastSummary = (props) => {
         &deg;C
       </div>
       <div className="forecast-summary__description">{description}</div>
-      <div>
+      <div className="forecast-details__button">
         <button type="button" onClick={() => onSelect(date)}>
           More details
         </button>

@@ -1,0 +1,33 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
+  const handleInputChange = (event) => setSearchText(event.target.value);
+  const handleSearch = (event) => {
+    event.preventDefault();
+    onSubmit();
+  };
+  return (
+    <div className="search-form">
+      <form>
+        <input
+          type="text"
+          placeholder="Search city..."
+          name="search"
+          value={searchText}
+          onKeyPress={handleSearch}
+          onChange={handleInputChange}
+        />
+        <button type="submit" onClick={handleSearch}>
+          Search
+        </button>
+      </form>
+    </div>
+  );
+};
+SearchForm.propTypes = {
+  searchText: PropTypes.string.isRequired,
+  setSearchText: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired,
+};
+export default SearchForm;

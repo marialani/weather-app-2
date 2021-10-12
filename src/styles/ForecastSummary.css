@@ -1,3 +1,6 @@
-.forecast-details__button {
-    
+.moreDetails__button {
+    padding: 0.5rem;
+    border: 2px solid #1479a1;
+    background-color: white;
+    /* box-shadow:  */
 }

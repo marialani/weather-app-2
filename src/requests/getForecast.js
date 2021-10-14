@@ -15,6 +15,13 @@ const getForecast = (
     setForecasts(response.data.forecasts);
     setLocation(response.data.location);
   });
-};
+endpoint = "https://mcr-codes-weather-app.herokuapp.com/forecast/hhyggvj";
+  axios.get(endpoint)
+  .catch(function(error){
+   if(error.response){
+     console.log(error.response.status)
+   }
+  })
+;
 
 export default getForecast;

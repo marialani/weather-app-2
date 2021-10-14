@@ -18,12 +18,15 @@ describe("SearchForm", () => {
     );
     expect(asFragment()).toMatchSnapshot();
   });
-  const SubmitButton = () => {
-    return <button name="search" type="submit" aria-label="search button" />;
-  };
 
-  it("displays a search button with the name search", () => {
-    render(<SubmitButton />);
-    const button = screen.getByRole("button");
+  it("displays a search button", () => {
+    const { getByRole } = render(
+      <SearchForm
+        searchText={validProps.searchText}
+        setSearchText={validProps.setSearchText}
+        onSubmit={validProps.onSubmit}
+      />
+    );
+    expect(getByRole("button")).toHaveTextContent("Search");
   });
 });

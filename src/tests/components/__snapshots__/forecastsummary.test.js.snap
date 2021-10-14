@@ -34,6 +34,7 @@ exports[`ForecastSummary renders details of the forecast including: date, descri
       class="forecast-details__button"
     >
       <button
+        class="moreDetails__button"
         type="button"
       >
         More details

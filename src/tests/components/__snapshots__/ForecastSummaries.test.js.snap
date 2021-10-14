@@ -37,6 +37,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-details__button"
       >
         <button
+          class="moreDetails__button"
           type="button"
         >
           More details
@@ -75,6 +76,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-details__button"
       >
         <button
+          class="moreDetails__button"
           type="button"
         >
           More details

@@ -15,7 +15,7 @@ const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
           placeholder="Search city..."
           name="search"
           value={searchText}
-          onKeyPress={handleSearch}
+          onSubmit={handleSearch}
           onChange={handleInputChange}
         />
         <button type="submit" onClick={handleSearch}>

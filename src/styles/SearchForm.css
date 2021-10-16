@@ -1,8 +1,8 @@
 .searchButton {
     padding: 12px 29px;
     margin: 0.5rem;
-    background-color: #2B7994;
-    color: white;
+    background-color: white;
+    color: black;
     border: 2px solid #002E45;
     border-radius: 6px;
     font-weight: bold;
@@ -10,6 +10,9 @@
 }
 .searchButton:hover {
 cursor: pointer;
+color: #2B7994;
+border: 2px solid #2B7994;
+
 
 }
 input {
@@ -18,10 +21,8 @@ input {
     border-radius: 6px;
     border: 2px solid #002E45;
     font-size: medium;
-    background-image: url();
 
 }
 input:focus {
-    outline: none;
     color: #2B7994;
 }

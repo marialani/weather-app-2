@@ -21,7 +21,7 @@ const getForecast = (
     })
     .catch((error) => {
       const { status } = error.response;
-      if (status === 400) {
+      if (status === 404) {
         setErrorMessage(
           "Sorry, we could not find that town or city, try again!"
         );

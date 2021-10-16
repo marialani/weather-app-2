@@ -1,13 +1,19 @@
 .moreDetails__button {
     padding: 12px 29px;
     margin: 0.5rem;
-    background-color: #2B7994;
-    color: white;
+    background-color: white;
+    color: black;
     border: 2px solid #002E45;
     border-radius: 10px;
     text-align: center;
     font-size: 15px;
 
+}
+
+.moreDetails__button:hover {
+    border: 2px solid #2B7994;
+    color: #2B7994;
+    cursor: pointer;
 }
 
 .forecast-summary__icon {

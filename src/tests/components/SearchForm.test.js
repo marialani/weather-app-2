@@ -1,5 +1,5 @@
 import React from "react";
-import { getByRole, render , screen } from "@testing-library/react";
+import { getByRole, render } from "@testing-library/react";
 import SearchForm from "../../components/SearchForm";
 
 describe("SearchForm", () => {

@@ -1,5 +1,36 @@
 .forecast-details {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     padding: 2rem;
+
+}
+
+.forecast-details__date {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.forecast-details__maxTemperature {
+    padding: 0.5rem;
+
+}
+
+.forecast-details__minTemperature {
+    padding: 0.5rem;
+
+}
+
+.forecast-details__humidity {
+    padding: 0.5rem;
+
+}
+
+.forecast-details__windSpeed {
+    padding: 0.5rem;
+
+}
+
+.forecast-details__windDirection {
+    padding: 0.5rem;
+
 }

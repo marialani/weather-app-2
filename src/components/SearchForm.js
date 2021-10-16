@@ -1,5 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../styles/SearchForm.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
   const handleInputChange = (event) => setSearchText(event.target.value);
@@ -18,8 +21,8 @@ const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
           onSubmit={handleSearch}
           onChange={handleInputChange}
         />
-        <button type="submit" onClick={handleSearch}>
-          Search
+        <button className="searchButton" type="submit" onClick={handleSearch}>
+          SEARCH
         </button>
       </form>
     </div>

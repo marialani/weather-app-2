@@ -1,6 +1,20 @@
 .moreDetails__button {
-    padding: 0.5rem;
-    border: 2px solid #1479a1;
-    background-color: white;
-    /* box-shadow:  */
+    padding: 12px 29px;
+    margin: 0.5rem;
+    background-color: #2B7994;
+    color: white;
+    border: 2px solid #002E45;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.forecast-summary__icon {
+    width: 100px;
+   
+}
+
+.forecast-summary__date {
+    font-weight: bold;
 }

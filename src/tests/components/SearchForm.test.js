@@ -27,6 +27,6 @@ describe("SearchForm", () => {
         onSubmit={validProps.onSubmit}
       />
     );
-    expect(getByRole("button")).toHaveTextContent("Search");
+    expect(getByRole("button")).toHaveTextContent("SEARCH");
   });
 });

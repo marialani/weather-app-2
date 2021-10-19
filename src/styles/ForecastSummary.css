@@ -1,4 +1,6 @@
 .moreDetails__button {
+    display: flex;
+    flex-direction: row;
     padding: 12px 29px;
     margin: 0.5rem;
     background-color: white;
@@ -22,5 +24,10 @@
 }
 
 .forecast-summary__date {
+    font-weight: bold;
+}
+
+.forecast-summary__temperature {
+    font-size: 25px;
     font-weight: bold;
 }

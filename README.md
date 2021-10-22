@@ -33,6 +33,7 @@ Builds the app for production to the `build` folder.
 
 - Make the app more responsive for different screen sizes with CSS
 - Add some animation to make the app visually appealing
+- Deploy the app via Heroku/Github Pages
 
 ### Weather App Project
 - Project built as part of the Manchester Codes bootcamp

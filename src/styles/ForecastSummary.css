@@ -16,6 +16,7 @@
     border: 2px solid #2B7994;
     color: #2B7994;
     cursor: pointer;
+    
 }
 
 .forecast-summary__icon {
@@ -25,9 +26,10 @@
 
 .forecast-summary__date {
     font-weight: bold;
+    font-size: 24px;
+    
 }
 
 .forecast-summary__temperature {
-    font-size: 25px;
-    font-weight: bold;
+     font-weight: bold;
 }

@@ -31,8 +31,7 @@ Builds the app for production to the `build` folder.
 
 ### If I had more time, I would:
 
-- Make the app more responsive for different screen sizes with CSS
-- Add some animation to make the app visually appealing
+- Make some stylistic changes to make the app more appealing
 - Deploy the app via Heroku/Github Pages
 
 ### Weather App Project

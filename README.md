@@ -3,6 +3,9 @@
 This project utilises React to build a weather forecast app, displaying a 5-day forecast from a weather API. If a City or Country is not found, it will display an error message to the user. There is also an option to display more details about the forecast for a particular day by clicking the 'more details' button. The components have been tested using the React Testing Library. 
 The app has been built using Create-React-App.
 
+## App on Desktop
+![Screenshot 2021-10-22 at 22 24 50](https://user-images.githubusercontent.com/79164944/138524647-a85eaa53-c1c5-4c7f-8b20-8af32304d320.png)
+
 ## Built With
 React
 

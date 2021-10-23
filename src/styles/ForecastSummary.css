@@ -19,17 +19,20 @@
     
 }
 
-.forecast-summary__icon {
-    width: 100px;
-   
+.forecast-summary {
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
 }
+
+ .forecast-summary__icon {
+    padding: 0.5rem;
+   
+} 
 
 .forecast-summary__date {
-    font-weight: bold;
     font-size: 25px;
-    
 }
 
-.forecast-summary__temperature {
-     font-weight: bold;
-}
+
+

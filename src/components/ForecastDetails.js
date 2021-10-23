@@ -11,10 +11,10 @@ const ForecastDetails = ({ forecast }) => {
         {moment(date).format("ddd Do MMM")}
       </div>
       <div className="forecast-details__maxTemperature">
-        {`Max temp:${temperature.max}`}&deg;C
+        {`Max temp: ${temperature.max}`}&deg;C
       </div>
       <div className="forecast-details__minTemperature">
-        {`Min temp:${temperature.min}`}&deg;C
+        {`Min temp: ${temperature.min}`}&deg;C
       </div>
       <div className="forecast-details__humidity">Humidity: {humidity}%</div>
       <div className="forecast-details__windSpeed">

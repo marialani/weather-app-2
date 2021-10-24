@@ -4,7 +4,7 @@ This project utilises React to build a weather forecast app, displaying a 5-day 
 The app has been built using Create-React-App.
 
 ## App on Desktop
-![Screenshot 2021-10-23 at 11 30 58](https://user-images.githubusercontent.com/79164944/138552639-2af32268-9c2c-4138-a283-ddd7d138998e.png)
+![Screenshot 2021-10-24 at 14 21 10](https://user-images.githubusercontent.com/79164944/138596153-8fd819cf-d9bf-4201-888e-110bb222b824.png)
 
 ## Built With
 React
